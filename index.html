@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Change2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <video autoplay muted loop src="Earth animation 3D - HD - Maya 2014.mp4"></video>
+        <div class="left">
+            <span class="heading"><i><b>Customize Template</b></i></span>
+            <div class="name">
+                <form id="form">
+                    <input type="text" id="boyn1" placeholder="BOY'S NAME" />
+
+                    <input type="text" id="girln1" placeholder="GIRL'S NAME" />
+                    <input type="button" class="btncss" id="btn" value="Submit" />
+                </form>
+                <div id="bekar" style="margin-top: 20px;">
+
+                </div>
+                Text Colour:
+                <input type="color" id="myColor" value="#ff0080">
+                <button onclick="myFunction1()" style="display:none;">Try it</button>
+                <p id="demo"></p>
+                <input type="button" id="btn1" class="btncss" value="Submit" onclick="myFunction2()" />
+                <div id="bekar" style="margin-top: 20px;">
+
+                </div>
+                Background Colour:
+                <input type="color" id="mybgColor" value="#ff0080">
+                <button onclick="myFunction3()" style="display:none;">Try it</button>
+                <p id="demo2"></p>
+                <input type="button" id="btn2" class="btncss" value="Submit" onclick="myFunction4()" />
+            </div>
+            <div id="bekar" style="margin-top: 20px;">
+
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">BG-Imange</button>
+                <div class="dropdown-content">
+                    <img src="bg1.jpeg" style="height:200px;width: 200px;" onclick="funA()">
+                    <img src="bg2.jpg" style="height:200px;width: 200px;" onclick="fun2()">
+                    <img src="bg7.jpg" style="height:200px;width: 200px;" onclick="fun7()">
+                </div>
+            </div>
+            <div id="bekar" style="margin-top: 20px;">
+
+            </div>
+            <div class="dropdown " style="margin-left:-100px ;margin-top:-200px;top: -65px;">
+                <button class="dropbtn">BG-Imange</button>
+                <div class="dropdown-content">
+                    <img src="bg3.jpeg" style="height:200px;width: 200px;" onclick="fun3()">
+                    <img src="bg4.jpg" style="height:200px;width: 200px;" onclick="fun4()">
+                    <img src="bg8.png" style="height:200px;width: 200px;" onclick="fun8()">
+                </div>
+            </div>
+            <div id="bekar" style="margin-top: 20px;">
+
+            </div>
+            <div class="dropdown" style="margin-left:200px ;margin-top:-200px;top: -130px;">
+                <button class="dropbtn">BG-Imange</button>
+                <div class="dropdown-content">
+                    <img src="bg5.jpg" style="height:200px;width: 200px;" onclick="fun5()">
+                    <img src="bg6.jpg" style="height:200px;width: 200px;" onclick="fun6()">
+                    <img src="bg9.jpg" style="height:200px;width: 200px;" onclick="fun9()">
+                </div>
+            </div>
+            <div id="bekar2">
+            </div>
+            <div class="submit">
+                <button id="preview" type="submit" onclick="fun10()"><i><b>Preview</b></i></button>
+            </div>
+        </div>
+        <div class="right">
+            <span class="heading"><i><b>Preview Template</b></i></span>
+            <div id="boyname">
+                <label>Boy's Name</label><br>
+                <span id="out1">
+                
+                    </span>
+            </div>
+            <div id="girlname">
+                <label>Girl's Name</label><br>
+                <span id="out2">
+                
+            </span>
+            </div>
+            <div id="Bg-Cover">
+                <img id="bgpre" style="width:100%;">
+                <div class="centered1" id="textpre1">1</div>
+                <div class="centered2" id="textpre2">2</div>
+                <div class="centered3" id="textpre3">3</div>
+                <div class="centered4" id="textpre4">4</div>
+            </div>
+            <div id="bekar"></div>
+            <div id="Print">
+                <button type="submit" onclick="codespeedy()">Print</button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+<script src="script.js"></script>
